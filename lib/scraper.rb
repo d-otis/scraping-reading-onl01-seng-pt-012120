@@ -11,3 +11,4 @@ doc = Nokogiri::HTML(html)
 binding.pry
 
 doc.css(".headline-26OIBN")
+
