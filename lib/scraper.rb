@@ -6,7 +6,7 @@ html = open("https://flatironschool.com/")
 
 # binding.pry
 
-doc = Nokogiri::HTML
+doc = Nokogiri::HTML(html)
 
 binding.pry
 
