@@ -4,4 +4,6 @@ require 'pry'
 
 html = open("https://flatironschool.com/")
 
-binding.pry
+# binding.pry
+
+doc = Nokogiri::HTML
